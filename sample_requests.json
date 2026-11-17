@@ -1,0 +1,29 @@
+[
+  {
+    "scenario": "Single item",
+    "request": {
+      "action": "select",
+      "items": [
+        "A"
+      ]
+    }
+  },
+  {
+    "scenario": "Multiple items",
+    "request": {
+      "action": "select",
+      "items": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "scenario": "Empty list",
+    "request": {
+      "action": "select",
+      "items": []
+    }
+  }
+]
